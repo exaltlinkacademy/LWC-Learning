@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+        <c-account-Search-form class="slds-m-left_medium" onsearchaccountcontact={searchAccountContactHandler}></c-account-Search-form>
+        <p>{searchText}</p>
+    </lightning-card>                                     
+
+    <lightning-card>
+        <c-account-Search-Result search-text={searchText}></c-account-Search-Result>
+    </lightning-card>
+   
+    
+</template>

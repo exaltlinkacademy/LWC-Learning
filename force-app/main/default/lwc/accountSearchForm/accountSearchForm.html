@@ -1,0 +1,22 @@
+<template>
+
+    <lightning-layout>
+        <div class="slds-m-small">
+            <div class="slds-form-element slds-grid slds-gutter">
+            
+                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-col slds-size_8-of-12">
+                  <svg class="slds-icon slds-input__icon slds-input__icon_right slds-icon-text-default" aria-hidden="true">
+                    <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                  </svg>
+                  <input type="text" id="text-input-id-47" placeholder="Search for Accounts" class="slds-input" onchange={onChangeHandler}/>
+                </div>
+                
+                <div class="slds-col slds-size_4-of-12 slds-m-left_small">
+                    <button class="slds-button slds-button_brand" onclick={onClickHandler}>Search</button>
+                </div>
+              </div>
+        </div>
+        
+    </lightning-layout>
+    
+</template>

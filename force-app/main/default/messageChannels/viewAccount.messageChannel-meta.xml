@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>viewAccount</masterLabel>
+    <isExposed>true</isExposed>
+    <description>This channel is to capture AccountId and AccountName and push it to subscribed components</description>
+    <lightningMessageFields>
+        <fieldName>accountId</fieldName>
+        <description>a</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>accountName</fieldName>
+        <description>a</description>
+    </lightningMessageFields>
+</LightningMessageChannel>
